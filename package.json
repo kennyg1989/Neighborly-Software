@@ -1,15 +1,11 @@
 {
-  "name": "neighborly-software",
+  "name": "neighborly-qa-assessment",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "cypress:open": "cypress open"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "cypress": "^15.5.0"
+    "cypress": "^13.0.0"
   }
 }
